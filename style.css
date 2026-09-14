@@ -445,8 +445,14 @@ footer{
         height: 560px;
     }
 
-    .buttons #eng{
-        display: none;
+    .buttons{
+        display: flex;
+        gap: 8px;
+    }
+
+    .buttons #eng,
+    .buttons #sign{
+        white-space: nowrap;
     }
 
     .main .content{
